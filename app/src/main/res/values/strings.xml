@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SPHTechAssignment</string>
+
+    <!-- Main Activity -->
+    <string name="year">Year</string>
+    <string name="sent">Data</string>
 </resources>
