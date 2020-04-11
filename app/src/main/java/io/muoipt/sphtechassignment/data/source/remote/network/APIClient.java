@@ -95,7 +95,7 @@ public class APIClient {
                         if (dataRepoResponse.getSuccess()) {
                             Log.d(TAG, "onSuccess: " + dataRepoResponse.getSuccess());
 
-                            onDataRepoResponse.onSuccessDatastoreResponse(dataRepoResponse);
+                            onDataRepoResponse.onSuccessDataRepoResponse(dataRepoResponse);
 
                         } else {
                             Log.e(TAG, "onSuccess: " + dataRepoResponse.getSuccess());

@@ -42,7 +42,7 @@ public class DataNetworkRepository {
             }
 
             @Override
-            public void onSuccessDatastoreResponse(DataRepoResponse dataRepoResponse) {
+            public void onSuccessDataRepoResponse(DataRepoResponse dataRepoResponse) {
 
                 List<Quarter> quarterList = new ArrayList<>();
 
